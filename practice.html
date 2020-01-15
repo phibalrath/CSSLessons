@@ -19,7 +19,8 @@
 </head>
 <body>
 
-	<!-- Cascading: General Rule to Specific Rule -->
+	<!-- Cascading: General Rule to Specific Rules -->
+	So in this case, the original text is green because we've set all h2 tags to green, however. the class attribute denoted by "class="rebel"" is more specific than h2, thus, it is prioritized and changes the "I am not green!" to red
 
 	<h2>I am green.</h2>
 	<h2 class="rebel">I am not green!</h2>
@@ -34,8 +35,31 @@
 	<!-- Internal Styling -->
 	<h1>This is an example of Internal Styling with the script tag.I've made the text color white!</h1>
 
+	<!-- attribute tag -->
+	<a href="https://google.com">Go to google</a>
+	
+	<!-- pseudo code selector -->
+	<a href="https://www.espn.com/">Go to ESPN</a>
 
+	<!-- multiple selectors -->
+	<div>
+		<p>This is my paragraph within the div tag. I am white.</p>
+	</div>
 
+	<div>
+		<span>This is my Div</span>	
+	</div>
+
+	<p>This is my paragraph outside my div</p>
+
+	<!-- display:inline example -->
+	<ul>
+		<li id="beBolded">Penguins</li>
+		<li>Green Bay Packer</li>
+		<li>Panthers</li>
+	</ul>
+
+	<input type="text" name="getMeInfo">
 
 </body>
 </html>
